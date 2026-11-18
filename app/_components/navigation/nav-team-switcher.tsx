@@ -16,7 +16,7 @@ interface SidebarBrandProps {
  * Shows only the initials badge when the sidebar is collapsed.
  */
 export default function SidebarBrand({
-  appName = "My App",
+  appName = "Boilerplate",
   appNameShort,
 }: SidebarBrandProps) {
   const { open } = useSidebar()
